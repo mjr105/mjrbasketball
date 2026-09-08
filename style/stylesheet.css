@@ -1,0 +1,167 @@
+  .headr {
+  font-family: "Goldman";
+  color: #ffffff !important;
+  font-size: 60px;;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); 
+}
+
+  h1 {
+    text-align: center;
+  }
+
+
+  .toplink a, 
+  .toplink a:visited {
+  color: #ffffff; 
+  text-decoration: none;
+  /* font-family: "Goldman"; */
+  font-size: 20px;
+  padding: 7px; 
+  text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+}
+.toplink a:hover {
+  color: #979797;
+}
+
+  .tbar {
+  width: 100%;
+  background-color: #4e4e4e; 
+  position:absolute;   
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+.ttext {
+    /* font-family: "Goldman"; */
+  color: #ffffff !important;
+  font-size: 30px;
+  text-align: right;
+  text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+  .subheadr {
+  font-family: "Goldman";
+  color: #ffffff !important;    
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); 
+}
+
+body {
+  background-image: url('../imgs/bstadium.avif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;}
+
+  body, html {
+    overflow-x: hidden; /* prevents horizontal scrolling */
+}
+
+/* Main box with players, images and video */
+.bbox {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 40px auto;
+    padding:30px;
+    max-width: 800px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Tableau box */
+.cbox {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 40px auto;
+    padding:5px;
+    width: 855px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Back to top box */
+.dbox {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 40px auto;
+    padding:10px;
+    width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* used to center images */
+.ctrimg {
+  display: block;       
+  margin: 15px auto;    
+  max-width: 100%;      
+  height: auto;         
+  border-radius: 6px; 
+}
+
+/* used to center video and video header */
+.vidsel{
+  text-align: center;  
+  margin: 30px auto;
+  font-size: 25px; 
+}
+
+.vidsel iframe {
+  display: block;
+  margin: 15px auto;    
+  max-width: 100%; 
+}
+
+.nms{
+  font-family: 'Georgia', serif;
+  font-size: 27px; 
+  color: #000000; 
+  list-style-type:decimal;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.points {
+  font-family: 'Georgia', serif;
+  font-size: 27px; 
+  color: #000000; 
+  list-style-type: square;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.links {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+/* Go to top link */
+.blink{
+    font-size: 31px;
+    font-weight: bold !important;
+    
+}
+
+.pe-5 {
+  padding-right: 300000rem !important;
+}
